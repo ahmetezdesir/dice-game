@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    background-color: #202221;
+}
+
+.click-me {
+    font-family: "Lobster";
+    font-size: 8rem;
+    margin-top: 3%;
+    color: #B5FFD9;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.players {
+    margin: 2% 0;
+    font-family: "Indie Flower";
+    font-size: 2rem;
+    color: #B5FFD9;
+}
+
+.p1,
+.p2 {
+    display: inline;
+    margin: 6.5%;
+}
+
+.p2-mobile {
+    display: none;
+}
+
+/* 540px mobile */
+@media (max-width: 545px) {
+    .p2 {
+        display: none;
+    }
+
+    .p2-mobile {
+        display: block;
+    }
+}
+
+.dice1,
+.dice2 {
+    margin: 2%;
+}
+
+.footer {
+    margin: 3%;
+}
+
+.profile-link {
+    color: white;
+    text-decoration: none;
+}
+
+.profile-link:hover {
+    color: #B5FFD9;
+}
